@@ -1,0 +1,28 @@
+<div class="employee-details-container">
+  <div class="employee-info">
+    <div class="picture">Picture</div>
+    <div class="employee-details">
+      <div class="name">
+        <div>Name: </div>
+        <div>{{selectedEmployee.firstName}} {{selectedEmployee.lastName}} </div>
+      </div>
+      <div class="position">
+        <div>Position: </div>
+        <div>{{selectedEmployee.position}}</div>
+      </div>
+      <div class="manager">
+        <div>Manager: </div>
+        <div>{{selectedEmployee.managerName}}</div>
+        <button class="report-button">Report</button>
+      </div>
+    </div>
+  </div>
+  <div class="employee-task-container">
+    <div>My tasks:</div>
+    <div class="employee-tasks" *ngFor="let t of tasks">
+      <div>{{t.taskText}}</div>
+      <div>{{t.dueDate}}</div>
+    </div>
+  </div>
+  <div class="employee-subordinates"></div>
+</div>

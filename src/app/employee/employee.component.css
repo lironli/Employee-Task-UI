@@ -1,0 +1,77 @@
+.employee-list-container {
+  display: flex;
+  margin: 30px auto 30px;
+  padding: 0 16px;
+  max-width: 960px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.employee-info {
+    display: flex;
+    justify-content: space-between;
+    line-height: 60px;
+    width: -webkit-fill-available;
+    margin-right: 150px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 90%;
+}
+
+.picture {
+  height: 50px;
+  border: 1px solid;
+  width: 25%;
+  height: auto;
+  text-align: center;
+}
+
+.employee-details {
+  display: flex;
+  flex-direction: column;
+  width: -webkit-fill-available;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  width: -webkit-fill-available;
+}
+
+.position {
+  display: flex;
+  flex-direction: row;
+  width: -webkit-fill-available;
+  border-bottom: 2px solid;
+}
+
+.manager {
+  display: flex;
+  flex-direction: row;
+  width: -webkit-fill-available;
+}
+
+.employee-tasks {
+  display: flex;
+  justify-content: space-between;
+  line-height: 60px;
+  width: -webkit-fill-available;
+  margin-right: 150px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 90%;
+}
+
+.report-button{
+  border: none;
+  font-size: 16px;
+  width: 30%;
+  cursor: pointer;
+  background-color: royalblue;
+  height: 40px;
+  margin-top: 10px;
+}

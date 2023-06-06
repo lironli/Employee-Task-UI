@@ -1,0 +1,75 @@
+:host {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.employee-list-container {
+  display: flex;
+  margin: 30px auto 30px;
+  padding: 0 16px;
+  max-width: 960px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.employee-list-title {
+  height: 40px;
+  margin: 0 8px 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  line-height: 24px;
+}
+
+.employee-line {
+  display: flex;
+  justify-content: space-between;
+  line-height: 60px;
+  width: -webkit-fill-available;
+  margin-right: 150px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.employee-name{
+  height: 40px;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+}
+
+.employee-name .first{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.employee-name .last{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.position{
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 30%;
+}
+
+.view-button{
+  border: none;
+  font-size: 16px;
+  width: 30%;
+  cursor: pointer;
+  background-color: royalblue;
+  height: 40px;
+  margin-top: 10px;
+}
